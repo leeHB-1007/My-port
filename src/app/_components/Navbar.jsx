@@ -30,7 +30,7 @@ const Navbar = () => {
     <nav
       className={`${
         styles.paddingX
-      } w-full flex py-5 fixed justify-center items-center z-20 ${
+      } w-full flex py-5 fixed items-center z-20 ${
         scrolled ? "bg-[#050816]" : "bg-transparent"
       }`}
     >
@@ -43,7 +43,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src='/logo.png' alt='logo' className='w-9 h-9 object-contain' />
+          <img src='/logo.png' alt='logo' className='w-3 h-3 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             이현빈 &nbsp;
             <span className='sm:block hidden'> | FrontDev</span>
